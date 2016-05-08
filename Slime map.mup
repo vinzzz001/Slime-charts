@@ -22,12 +22,7 @@
         "attachment": {
           "contentType": "text/html",
           "content": "A slime with earth resistance.&nbsp; <br>Quite normal with that exception.<br><br>(Optional; Slightly harder than other slimes. Eats stones, but they might be in his body a while.)"
-        },
-        "position": [
-          63.5,
-          -694.5,
-          5
-        ]
+        }
       },
       "ideas": {
         "1": {
@@ -856,6 +851,52 @@
         }
       }
     },
+    "32": {
+      "title": "Gravity slime",
+      "id": "349.gd2a542ae82648da72",
+      "ideas": {
+        "2": {
+          "title": "Weight slime",
+          "id": "348.gd2a542ae82648da72",
+          "attr": {
+            "style": {
+              "background": "#FF7F50"
+            },
+            "attachment": {
+              "contentType": "text/html",
+              "content": "A slime slime which weights more than your average slime.<br>It's weight is 10 times it's actual mass."
+            }
+          }
+        },
+        "3": {
+          "title": "Gravity slime",
+          "id": "347.gd2a542ae82648da72",
+          "attr": {
+            "style": {
+              "background": "#FF7F50"
+            },
+            "attachment": {
+              "contentType": "text/html",
+              "content": "A slime that influences gravity itself, drawing thing towards itself."
+            }
+          },
+          "ideas": {}
+        },
+        "4": {
+          "title": "... slime",
+          "id": "350.gd2a542ae82648da72"
+        }
+      },
+      "attr": {
+        "attachment": {
+          "contentType": "text/html",
+          "content": "Slime that cannot be hurt by gravitation magic.<br>sometimes changes it's definition of \"below\"."
+        },
+        "style": {
+          "background": "#FF7F50"
+        }
+      }
+    },
     "-1": {
       "title": "Overslime",
       "id": 27,
@@ -1627,31 +1668,17 @@
           "id": 334
         },
         "3": {
-          "title": "Light eater slime",
+          "title": "Light-eater slime",
           "attr": {
             "style": {
               "background": "#000000"
             },
             "attachment": {
               "contentType": "text/html",
-              "content": "A slime that even eats light itself. Creates an completely dark area around itself.<br>Doesn't do much else."
+              "content": "A slime that even eats light itself. Causes the area around it to become devoid of light.<br>Even other light sources have a reduced brightness when close to the slime. (Things like torches will only light an 1m area around themselves.)<br>No special attacks, other than the normal slime kind."
             }
           },
-          "ideas": {
-            "1": {
-              "title": "Black hole slime",
-              "attr": {
-                "style": {
-                  "background": "#000000"
-                },
-                "attachment": {
-                  "contentType": "text/html",
-                  "content": "A rare dark type slime.<br>This slime eats everything endlessly. <br>Eats light and magic, but can still be killed by an attack to it's core."
-                }
-              },
-              "id": 336
-            }
-          },
+          "ideas": {},
           "id": 335
         },
         "4": {
